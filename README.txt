@@ -23,5 +23,7 @@ imgs = [dir + f for f in ('zidane.jpg', 'bus.jpg')]  # batch of images
 results = model(imgs)
 results.print()  # or .show(), .save()
 
-5. The file 'LaserPointer_yolov5s.py' contains the code to control the Robot based on the detected objects.
+5. Install the control software on the robot control board (dir: Laser_pointer_V4)
+
+6. The file 'LaserPointer_yolov5s.py' contains the code to control the Robot based on the detected objects.
 You can find further information in the comments.
