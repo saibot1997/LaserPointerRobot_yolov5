@@ -1,10 +1,10 @@
 Get started:
 
 1. Clone git repository:
-$ git clone https://github.com/ultralytics/yolov5.git
+$ git clone https://github.com/saibot1997/LaserPointerRobot.git
 
 2. Enter the repository root directory
-$ cd yolov5
+$ cd LaserPointerRobot
 
 3. Install the required packages from your cloned repository root directory
 $ pip install -r requirements.txt
