@@ -88,7 +88,7 @@ LPointer = False
 searching = None
 lastMoving = False
 scalingFactor = 1       #scale image for object detection
-trackingSpeed = 0.035   #constant factor for object tracking speed
+trackingSpeed = 0.03   #constant factor for object tracking speed
 direction = 1           #defines direction for object search. 1: right; -1: left
 counter = 0
 line_thickness=3
@@ -119,7 +119,7 @@ else:
   except:
     print("! Could not connect to laser pointer!. Check you are connected to the robot Wifi network (JJROBOTS_xx)")
 
-sendCommand(b'JJAS',15,0,60,0) # 50% speed, 70% accel
+sendCommand(b'JJAS',10,0,50,0) # 50% speed, 70% accel
 sendAngles(a1,a2) # go to (0,0)
 
 # Loop
