@@ -95,8 +95,11 @@ line_thickness=3
 cam_port = 2            #change to cam port of webcam
 cam = cv2.VideoCapture(cam_port)
 
+# First run needs to load model from online source: 
+# model = torch.hub.load('ultralytics/yolov5', 'yolov5s')
+
 # Load yolov5s model from local source. Change path to local directory 
-model = torch.hub.load('C:/Users/tobia/Documents/HIWI/Bilderkennung/YOLO/yolov5', 'yolov5s', source='local')
+model = torch.hub.load('C:/Users/tobia/Documents/HIWI/Bilderkennung/YOLO/LaserPointerRobot_yolov5', 'yolov5s', source='local')
 names = model.names
 
 # Connect to Robot
