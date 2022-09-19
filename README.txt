@@ -1,15 +1,16 @@
 Get started:
+1. Install PyTorch with Anaconda
 
-1. Clone git repository:
+2. Clone git repository:
 $ git clone https://github.com/saibot1997/LaserPointerRobot_yolov5.git
 
-2. Enter the repository root directory
+3. Enter the repository root directory
 $ cd LaserPointerRobot_yolov5
 
-3. Install the required packages from your cloned repository root directory
+4. Install the required packages from your cloned repository root directory
 $ pip install -r requirements.txt
 
-4. Test Yolov5 with the following code:
+5. Test Yolov5 with the following code:
 import torch
 
 # Model
@@ -23,7 +24,7 @@ imgs = [dir + f for f in ('zidane.jpg', 'bus.jpg')]  # batch of images
 results = model(imgs)
 results.print()  # or .show(), .save()
 
-5. Install the control software on the robot control board (dir: Laser_pointer_V4)
+6. Install the control software on the robot control board (dir: Laser_pointer_V4)
 
-6. The file 'LaserPointer_yolov5s.py' contains the code to control the Robot based on the detected objects.
+7. The file 'LaserPointer_yolov5s.py' contains the code to control the Robot based on the detected objects.
 You can find further information in the comments.
