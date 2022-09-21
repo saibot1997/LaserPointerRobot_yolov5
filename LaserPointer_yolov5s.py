@@ -1,3 +1,10 @@
+# Commands:
+# Press 'i' to input the object, the laserpointer should point at.
+# Press 'i' and input 'None' to exit the searching mode of the Robot.
+# When the Robot is not in searching mode, you can control the Robot via the 'w''a''s''d' keys
+# Press 'esc' to exit the programm
+
+
 # required imports
 from ctypes import pointer
 import tkinter as tk
